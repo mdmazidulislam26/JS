@@ -1,2 +1,2 @@
 const alphabet = 'a';
-const place = 1;
+const place = 2;
