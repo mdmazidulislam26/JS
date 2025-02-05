@@ -5,9 +5,9 @@ console.log(`Hay My name is ${name} and I am a ${profession}. `);
 
 const nam = new String("Mazidul Islam Rohin");
 
-// console.log(nam[0]);
-// console.log(nam.charAt(8));
-// console.log(nam.indexOf('a'));
+console.log(nam[0]);
+console.log(nam.charAt(8));
+console.log(nam.indexOf('a'));
 
 console.log(`last name : ${nam.substring(14)}`);
 
