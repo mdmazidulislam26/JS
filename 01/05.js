@@ -18,3 +18,27 @@ console.log(`${price.toPrecision(5)} - ${price.toPrecision(4)} - ${price.toPreci
 
 
 
+/**------------------Maths------------------ */
+// `${} -> max`
+console.log(Math);
+console.log(`${Math.abs(-5)} -> abs`);
+console.log(`${Math.abs(5)} ->abs`);
+console.log(`${Math.round(5.4)} ->round`);
+console.log(`${Math.round(5.6)} ->round`);
+console.log(`${Math.ceil(7.4)} -> ceil`);
+console.log(`${Math.floor(7.4)} -> floor`);
+console.log(`${Math.min(4, 2, 3, 6, 8)} -> min`);
+console.log(`${Math.max(4, 2, 3, 6, 8)} -> max`);
+
+console.log(Math.round(Math.random()*10));
+
+let ran = (Math.random() * 10) + 1;
+
+console.log(`${ran} -> ${Math.floor(ran)}`);
+
+const min = 10;
+const max = 20;
+let san = (Math.random() * 10);
+
+console.log(Math.floor(san * (max - min + 1)));
+console.log(Math.floor(san * (max - min + 1)) + min);
