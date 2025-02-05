@@ -19,11 +19,11 @@ const plus01 = (num1,num2) => num1 + num2
 const plus02 = (num1,num2) => (num1 + num2) 
 const obj01 = () => ({name : "Mazidul Islam"}) 
 
-// console.log(plusOne(1));
-// console.log(plusTwo(1));
-// console.log(plusThree(1));
+console.log(plusOne(1));
+console.log(plusTwo(1));
+console.log(plusThree(1));
 
-// console.log(plus01(5,6));
-// console.log(plus02(8,6));
+console.log(plus01(5,6));
+console.log(plus02(8,6));
 
 console.log(obj01());
