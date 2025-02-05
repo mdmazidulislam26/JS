@@ -32,8 +32,8 @@ const strArr = arr3.join();
 console.log(strArr);
 console.log(typeof strArr);
 
-slice => Not modify the array
-splice => modify the array
+// slice => Not modify the array
+// splice => modify the array
 
 console.log("A ", arr3);
 console.log(arr3.slice(1,4));
