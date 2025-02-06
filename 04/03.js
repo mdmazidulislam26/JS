@@ -8,39 +8,35 @@ const myObject = {
 
 
 for (const key in myObject) {
-    // console.log(`${key} - ${myObject[key]}`);
+    console.log(`${key} - ${myObject[key]}`);
 }
 
 
 const num01 = [1,2,3,4,5];
 
 for (const key in num01) {
-    // console.log(num01[key]);
+    console.log(num01[key]);
     
 }
-
-
-
-
 
 const coding = ["js","ruby","java", "python","cpp"];
 
 coding.forEach(function(val){
-    // console.log(val);
+    console.log(val);
 })
 
 coding.forEach((val) => {
-    // console.log(val);
+    console.log(val);
 })
 
 function printMe(item){
-    // console.log(item);
+    console.log(item);
 }
 coding.forEach(printMe);
 
 
 coding.forEach((val,index,arr) => {
-    // console.log(`${val} - ${index} - ${arr}`);
+    console.log(`${val} - ${index} - ${arr}`);
 })
 
 const myCoding = [
