@@ -58,3 +58,9 @@ myCoding.forEach((item)=>{
     console.log(item.languageName);
     
 })
+
+
+//? reduce
+const arr001 = [1,2,3,4, 5];
+let resu = arr001.reduce((a,b) => (a+b),0);
+console.log(resu);
