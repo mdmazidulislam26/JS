@@ -1,4 +1,4 @@
-//? Control flow
+// ? Control flow
 
 if (true) {
     let start = "To"
@@ -16,7 +16,7 @@ if (true) {
     console.log(`can't play!!`); 
 }
 
-//? Single Condition
+// ? Single Condition
 
 let mind = "NO"
 
@@ -27,7 +27,7 @@ if (mind == "OK") {
 }
 
 
-//? Multiple Condition
+// ? Multiple Condition
 let physicallyStrong = false
 let physicallyHealth = false
 
@@ -40,3 +40,27 @@ if (physicallyStrong && physicallyHealth) {
 }else{
     console.log("Dhurr..");
 }
+
+//? assuming Truthy Values
+//? "0", "false", " ", [], {}, function(){}
+
+//! assuming falsy Values
+//! false, 0, -0, BigInt 0n, null, undefined, NaN
+
+//? Nullish Coalescing Operator (??) : null undefined
+
+let val1;
+console.log(val1);
+val1 = 5 ?? 10;
+console.log(val1);
+val1 = null ?? 10;
+console.log(val1);
+val1 = undefined ?? 15;
+console.log(val1);
+val1 = null ?? 10 ?? 20
+console.log(val1);
+
+
+//? Ternary Operator (?)
+let result01 = true ? "Hay" : "Hi";
+console.log(result01);
