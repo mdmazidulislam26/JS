@@ -23,11 +23,11 @@ const lastName = {
 firstName.__proto__ = MidName;//! Old
 Object.getPrototypeOf(MidName,lastName);//? New
 
-let author = "Md Mazidul Islam Rohin";
+let author = "Md Mazidul Islam Rohin          ";
 
 String.prototype.trueLength = function(){
-    console.log(`${this}`);
+    console.log(`length is : ${this.length}`);
     console.log(`True length is :${this.trim().length}`);   
 }
 
-"hello".trueLength();
+author.trueLength();
