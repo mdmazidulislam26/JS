@@ -1,5 +1,5 @@
-// basic mongoose model
-// npm i mongoose
+## basic mongoose model
+### npm i mongoose
 ```javascript 
 import mongoose from 'mongoose';
 
@@ -23,7 +23,11 @@ const userSchema = new mongoose.Schema({
 
 export const User = mongoose.model("User",userSchema);
 
+```
+
 ---
+
+```javascript
 
 import mongoose from 'mongoose';
 
@@ -50,8 +54,11 @@ const todoSchema = new mongoose.Schema({
 
 export const Todo = mongoose.model("Todo",todoSchema);
 
+```
+
 ---
 
+```javascript 
 import mongoose from 'mongoose';
 
 const subtodoSchema = new mongoose.Schema({
