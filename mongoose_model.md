@@ -1,5 +1,5 @@
 ## basic mongoose model
-### npm i mongoose
+npm i mongoose </br>
 ```javascript 
 import mongoose from 'mongoose';
 
