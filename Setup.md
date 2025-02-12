@@ -1,20 +1,17 @@
 # Set up backend project
 ---
 - initialize project name and description...
-- ```
-  npm init
-  ```
+- ``` npm init ```
 - connect github
 - change branch
-- ```javascript
-  git branch -M main 
-  ```
+- ``` git branch -M main ```
 - set remote
-- ```javascript
-  git remote add origin https://github.com/xyz
-  ```
+- ``` git remote add origin https://github.com/xyz ```
 - set upstream
-- ```javascript
-  git push -u origin main
-  ```
+- ```git push -u origin main```
 ---
+# File Structure
+- Create public folder
+- Create .gitignore file and generat content from here then copy the content and paste the content inside `.gitignore` file 
+- ```https://mrkandreev.name/snippets/gitignore-generator/#Node```
+  
