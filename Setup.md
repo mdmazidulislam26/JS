@@ -11,7 +11,7 @@
 - ```git push -u origin main```
 ---
 # File Structure
-- Create public folder
-- Create .gitignore file and generat content from here then copy the content and paste the content inside `.gitignore` file 
+- Create `public` folder
+- Create `.gitignore` file and generat content from here then copy the content and paste the content inside `.gitignore` file 
 - ```https://mrkandreev.name/snippets/gitignore-generator/#Node```
   
