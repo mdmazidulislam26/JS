@@ -24,15 +24,54 @@
 - ```javascript
   https://mrkandreev.name/snippets/gitignore-generator/#Node
   ```
-  ```javascript
-  
-  ```
 - Create `.env` file
 - Create `.env.semple` file
 - Create `src` folder
 - ```javascript
+  mkdir src
+  ```
+- Create all file inside the src folder
+- ```javascript
   cd src
   foreach ($file in "app.js", "constants.js", "index.js") { New-Item $file -ItemType File }
   ```
+- install nodemon
+- ```javascript
+  npm i -D nodemon
+  ```
+- Edit `package.json` file
+- Create all folder inside the src folder
+- ```javascript
+  mkdir controllers db middlewares models routes utils
+  ```
+- install prettier
+- ```javascript
+  npm i -D prettier
+  ```
+- Create `.prettierrc` file
+- ```json
+  {
+    "singleQuote": false,
+    "bracketSpacing": true,
+    "tabWidth": 2,
+    "trailingComma": "es5",
+    "semi": true
+  }
+  ```
+- Create `.prettierignore` file
+- ```
+  /.vscode
+  /node_modules
+  ./dist
+
+  *.env
+  .env
+  .env.*
+  ```
 - 
+
+
+  ```javascript
+  
+  ```
   
