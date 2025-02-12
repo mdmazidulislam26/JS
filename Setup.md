@@ -32,7 +32,7 @@
 - Create `src` folder
 - ```javascript
   cd src
-touch touch app.js constants.js index.js
+  touch touch app.js constants.js index.js
   ```
 - 
   
