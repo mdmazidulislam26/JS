@@ -1,10 +1,13 @@
 # Set up backend project
 ---
-- npm init -- set project name and description...
+- initialize project name and description...
+- ```
+  npm init
+  ```
 - connect github
 - change branch
 - ```javascript
-  git branch -M main
+  git branch -M main 
   ```
 - set remote
 - ```javascript
@@ -14,3 +17,4 @@
 - ```javascript
   git push -u origin main
   ```
+---
