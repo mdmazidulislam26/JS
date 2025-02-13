@@ -88,9 +88,9 @@
     npm i mongoose express dotenv
     ```
 - Create `index.js` file inside `src/db` folder
- - ```command
-   New-Item  src\db\index.js  
-   ```
+ -  ```javascript 
+     New-Item  src\db\index.js  
+     ```
 
 
 
