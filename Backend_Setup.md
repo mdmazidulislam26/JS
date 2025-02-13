@@ -20,10 +20,11 @@
 ---
 # File Structure
 - Create `public` folder
-- Create `.gitignore` file and generat content from here then copy the content and paste the content inside `.gitignore` file 
+- Create `.gitignore` file and generat content from here. 
 - ```javascript
   https://mrkandreev.name/snippets/gitignore-generator/#Node
   ```
+- then copy the content and paste the content inside `.gitignore` file 
 - Create `.env` file
 - Create `.env.semple` file
 - Create `src` folder
@@ -68,6 +69,22 @@
   .env
   .env.*
   ```
+  ---
+  # Connect MongoDB Database
+  - Set env variable
+  - ```env
+    PORT=XXXX
+    MONGODB_URI=mongodb+srv://<Replace_with_your_MongoDB_userName>:<Replace_with_your_MongoDB_password>@cluster0.6jbwe.mongodb.net
+    ```
+
+
+
+
+
+
+
+
+
   ```javascript
   
   ```
