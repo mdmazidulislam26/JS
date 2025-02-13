@@ -81,9 +81,9 @@
     export const DB_NAME = "database007";  
     ```
 -install dependency 
-  - mongoose 
-  - express 
-  - dotenv 
+  -- mongoose 
+  -- express 
+  -- dotenv 
   - ```javascript
     npm i mongoose express dotenv
     ```
