@@ -1,14 +1,14 @@
 # Set up backend project
 ---
 - initialize project name and description...
- - ```javascript
-   npm init
-   ```
+  - ```javascript
+    npm init
+    ```
 - connect github
 - change branch
- - ```javascript
-   git branch -M main
-   ```
+  - ```javascript
+    git branch -M main
+    ```
 - set remote
   - ```javascript
      git remote add origin https://github.com/xyz
@@ -88,7 +88,7 @@
     npm i mongoose express dotenv
     ```
 - Create `index.js` file inside `src/db` folder
- -  ```javascript 
+  -  ```javascript 
      New-Item  src\db\index.js  
      ```
 
