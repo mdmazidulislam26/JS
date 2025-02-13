@@ -91,10 +91,10 @@
   -  ```javascript 
      New-Item  src\db\index.js  
      ```
-- then go to inside the `src\db\index.js` file and wright this code:
+- then go to inside the `src\db\index.js` file and write this code:
   - ```javascript 
-     import mongoose from "mongoose";
-    import { DB_NAME } from './../constants';
+    import mongoose from "mongoose";
+    import { DB_NAME } from '../constants.js';
     
     const connectDB = async () => {
         try {
@@ -106,8 +106,25 @@
         }
     }
     
-    export default connectDB; 
+    export default connectDB;
+
      ```
+- Go to the `src/index.js` file and import the `connectDB` from `src/db/index.js` or write this code
+  - ```javascript
+    //? require('dotenv').config({path:'./env'});
+    import dotenv from "dotenv";
+    import connectDB from "./db/index.js";
+    dotenv.config({
+        path : './env'
+    });
+    connectDB()
+  ```
+- Edit `script` from `package.json` file
+  - ```json
+    "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+    }  
+    ```
 
 
 
